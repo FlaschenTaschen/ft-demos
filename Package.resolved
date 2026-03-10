@@ -1,0 +1,15 @@
+{
+  "originHash" : "3fc21c977572e6ce60a947bdc65063518d655418a239b4f6b729f5df2bcdcf8a",
+  "pins" : [
+    {
+      "identity" : "ft-clients",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/FlaschenTaschen/ft-clients.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "16c0aabbc373347eebdf821b557d7af3267409ae"
+      }
+    }
+  ],
+  "version" : 3
+}

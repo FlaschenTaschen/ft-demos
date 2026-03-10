@@ -1,0 +1,384 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug FlaschenTaschenDemos",
+            "target": "FlaschenTaschenDemos",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug FlaschenTaschenDemos"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release FlaschenTaschenDemos",
+            "target": "FlaschenTaschenDemos",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release FlaschenTaschenDemos"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug simple-example",
+            "target": "simple-example",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug simple-example"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release simple-example",
+            "target": "simple-example",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release simple-example"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug simple-animation",
+            "target": "simple-animation",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug simple-animation"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release simple-animation",
+            "target": "simple-animation",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release simple-animation"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug black",
+            "target": "black",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug black"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release black",
+            "target": "black",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release black"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug random-dots",
+            "target": "random-dots",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug random-dots"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release random-dots",
+            "target": "random-dots",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release random-dots"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug plasma",
+            "target": "plasma",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug plasma"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release plasma",
+            "target": "plasma",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release plasma"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug matrix",
+            "target": "matrix",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug matrix"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release matrix",
+            "target": "matrix",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release matrix"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug blur",
+            "target": "blur",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug blur"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release blur",
+            "target": "blur",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release blur"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug quilt",
+            "target": "quilt",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug quilt"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release quilt",
+            "target": "quilt",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release quilt"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug life",
+            "target": "life",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug life"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release life",
+            "target": "life",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release life"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug fractal",
+            "target": "fractal",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug fractal"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release fractal",
+            "target": "fractal",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release fractal"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug sierpinski",
+            "target": "sierpinski",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug sierpinski"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release sierpinski",
+            "target": "sierpinski",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release sierpinski"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug maze",
+            "target": "maze",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug maze"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release maze",
+            "target": "maze",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release maze"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug lines",
+            "target": "lines",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug lines"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release lines",
+            "target": "lines",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release lines"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug hack",
+            "target": "hack",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug hack"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release hack",
+            "target": "hack",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release hack"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug words",
+            "target": "words",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug words"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release words",
+            "target": "words",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release words"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug nb-logo",
+            "target": "nb-logo",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug nb-logo"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release nb-logo",
+            "target": "nb-logo",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release nb-logo"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug midi",
+            "target": "midi",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug midi"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release midi",
+            "target": "midi",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release midi"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Debug kbd2midi",
+            "target": "kbd2midi",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug kbd2midi"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FlaschenTaschenDemos}",
+            "name": "Release kbd2midi",
+            "target": "kbd2midi",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release kbd2midi"
+        }
+    ]
+}

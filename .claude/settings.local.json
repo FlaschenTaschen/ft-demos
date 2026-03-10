@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(~/ft/bin/black -h 2>&1 | head -20)",
+      "Bash(~/ft/bin/plasma -h 2>&1 | head -30)",
+      "Bash(~/ft/bin/life -h 2>&1 | head -30)",
+      "Bash(~/ft/bin/hack -h 2>&1 | head -30)",
+      "Bash(~/ft/bin/blur -h 2>&1)",
+      "Bash(~/ft/bin/maze -h 2>&1)",
+      "Bash(~/ft/bin/lines -h 2>&1)",
+      "Bash(~/ft/bin/words -h 2>&1)",
+      "Bash(~/ft/bin/fractal -h 2>&1)",
+      "Bash(~/ft/bin/matrix -h 2>&1)",
+      "Bash(~/ft/bin/sierpinski -h 2>&1)",
+      "Bash(~/ft/bin/nb-logo -h 2>&1)",
+      "Bash(~/ft/bin/random-dots -h 2>&1)",
+      "Bash(~/ft/bin/midi -\\\\? 2>&1 | head -20)",
+      "Bash(swift build:*)",
+      "Bash(.build/debug/black)",
+      "WebSearch"
+    ]
+  }
+}
