@@ -1,6 +1,9 @@
 // Color palette and gradient utilities for Flaschen Taschen demos
 
 import Foundation
+import os.log
+
+nonisolated private let logger = Logger(subsystem: Logging.subsystem, category: "Color")
 
 // MARK: - Gradient Generation
 
@@ -39,6 +42,32 @@ public enum PaletteType: Int, CaseIterable {
     case inferno = 6
     case plasma = 7
     case viridis = 8
+
+    public static func paletteType(for name: String? = nil) -> PaletteType {
+        guard let name else {
+            logger.debug("Defaulting to Rainbow")
+
+            let rawValue = randomInt(min: PaletteType.rainbow.rawValue,
+                                     max: PaletteType.viridis.rawValue)
+            let paletteType = PaletteType(rawValue: rawValue) ?? .rainbow
+            return paletteType
+        }
+
+        logger.log("Palette: \(name)")
+
+        switch name {
+        case "rainbow": return .rainbow
+        case "nebula": return .nebula
+        case "fire": return .fire
+        case "bluegreen": return .bluegreen
+        case "colorful": return .colorful
+        case "magma": return .magma
+        case "inferno": return .inferno
+        case "plasma": return .plasma
+        case "viridis": return .viridis
+        default: return .rainbow
+        }
+    }
 
     /// Apply this palette to a 256-color palette array
     public func apply(to palette: inout [Color]) {

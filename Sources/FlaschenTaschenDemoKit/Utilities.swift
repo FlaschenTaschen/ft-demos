@@ -61,7 +61,7 @@ public nonisolated func createSpriteFromPattern(_ fileDescriptor: Int32, pattern
 
 /// Log command-line arguments for easy copy/paste to original demos
 public nonisolated func logArguments(_ logger: Logger, category: String) {
-    let args = CommandLine.arguments
+    let args = ArgumentPreprocessor.preprocess(args: CommandLine.arguments)
     let argString = args.count > 1 ? args.dropFirst().joined(separator: " ") : "(none)"
     logger.info("Arguments: \(argString, privacy: .public)")
 }

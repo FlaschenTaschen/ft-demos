@@ -8,7 +8,7 @@ nonisolated private let logger = Logger(subsystem: Logging.subsystem, category: 
 @main
 struct Demo {
     static func main() async {
-        let args = CommandLine.arguments
+        let args = ArgumentPreprocessor.preprocess(args: CommandLine.arguments)
         if args.count > 1 {
             logger.info("Arguments: \(args.dropFirst().joined(separator: " "), privacy: .public)")
         }

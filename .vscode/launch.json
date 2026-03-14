@@ -379,6 +379,46 @@
             "target": "kbd2midi",
             "configuration": "release",
             "preLaunchTask": "swift: Build Release kbd2midi"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ft-demos}",
+            "name": "Debug firefly",
+            "target": "firefly",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug firefly"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ft-demos}",
+            "name": "Release firefly",
+            "target": "firefly",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release firefly"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ft-demos}",
+            "name": "Debug sf-logo",
+            "target": "sf-logo",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug sf-logo"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ft-demos}",
+            "name": "Release sf-logo",
+            "target": "sf-logo",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release sf-logo"
         }
     ]
 }
